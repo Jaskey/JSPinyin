@@ -1,15 +1,15 @@
 Pinyin
 =========
+To get chinese pinyin from chinese. Forked from https://github.com/chinalu/JSPinyin,which is based on Mooltools
 
-To get chinese pinyin from chinese.
 
-It's based on mootools.
+This version has no dependencies.
 
 How to use
 ----------
 
 	#JS
-	var pinyin = new Pinyin();
+	var pinyin = new JSPinyin();
 	alert(pinyin.getFullChars('你好中国'));
 
 Options
@@ -17,7 +17,4 @@ Options
 
 ### Version 0.1
 
-License
--------
 
-MIT License. Copyright 2008-2010 [Bill Lue](http://moodemo.appspot.com/).
